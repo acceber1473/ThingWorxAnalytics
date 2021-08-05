@@ -1,5 +1,5 @@
 // ThingWorx service that will create an infotable by querying property history
-// Make sure the properties are both logged and persistent 
+// Make sure the properties of intereste are marked logged and persistent 
 // No input
 // Output must be set to INFOTABLE
 
