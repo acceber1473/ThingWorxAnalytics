@@ -35,9 +35,9 @@ let datasetRef = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape({
 });
 var entry = new Object();
 entry.datasetUri = encodeURI("thingworx://" + "PuppyFR" + me.csvFileName); // if your Thing does not have a property for csvFileName
-																		   // insert a string with format '/yourCSVFileName.csv' here
-																		   // insert your File Repository in place of "PuppyFR"
-																		   // the dataset you create here will be visible in that FR
+									   // insert a string with format '/yourCSVFileName.csv' here
+								           // insert your File Repository in place of "PuppyFR"
+									   // the dataset you create here will be visible in that FR
 entry.format = "csv";
 datasetRef.AddRow(entry);
 
@@ -56,7 +56,7 @@ for (var i = 0; i < metadata.length; i++) {
 // Again, replace "PuppyFR" with your FR name 
 Things["PuppyFR"].SaveText({
 	path: me.jsonMetaData,  // if you do not have a property for jsonMetaData, or the json file name, replace
-							// format: '/metadata.json'
+			        // format: '/metadata.json'
     content: metadata
 });
 
@@ -79,7 +79,7 @@ me.DatasetId = Things["EC2AMAZ-4HV0AJ2-AnalyticsServer_DataThing"].CreateDataset
 });
 
 var result = me.DatasetId; // returns your data set ID
-							// for my Thing, there is a property that will be updated 
+			   // for my Thing, there is a property that will be updated 
 
 
 
