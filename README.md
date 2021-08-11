@@ -15,12 +15,12 @@ To the right is a flowchart of the general training process. Although the SPIKE 
 Each folder will contain files detailing setups specific to the systems used. [Here](https://drive.google.com/drive/folders/1ASOn0lAOdE_gR4C9Febgn0rY1Nz9imzS?usp=sharing) is a link to a Google Drive with all of the linked resources and more!
 
 ## Equipment
--- ThingWorx instance with the following:
+- ThingWorx instance with the following:
   - Analytics Server Extension
   - CSV Parser Extension
   - MQTT Extension
--- SPIKE Prime Kit 
--- ESP8266 wifi dongle 
+- SPIKE Prime Kit 
+- ESP8266 wifi dongle 
   - [Click here](https://quickest-palladium-2e9.notion.site/SPIKE-Prime-Backpacks-31f12415b3ad429fba34956b9d50b49e) to get more info
--- [MQTTX](https://mqttx.app/)- a cloud based broker app used as a bridge between SPIKE and ThingWorx 
+- [MQTTX](https://mqttx.app/)- a cloud based broker app used as a bridge between SPIKE and ThingWorx 
   - I have not explored other MQTT broker software, but hear that [Mosquitto](https://mosquitto.org/) is reputable
