@@ -19,3 +19,11 @@ After the dataset URI is generated, this service can create an analytical model 
 
 ### 4. predictiveScoring
 After creating a predictive model, you can use predictive or prescriptive scoring in order to utilize that model. I wanted to use the analytics model to generate outputs based on specific inputs and called on the Analytics Server Prediction Thing's RealtimeScore() service to do so. For this service, the code creates an infotable with the current property values that will serve as the inputs, and then generates one output for your goal property. At the moment, ThingWorx only supports one goal variable. 
+
+## How I Call These Services 
+
+### API Calls 
+When working on Google Colab or directly on the SPIKE/ESP8266, I utilized API calls to both push data and make service calls to ThingWorx. Code for this can be found in the Ball Launcher folder. 
+
+### MQTT & Events/Subscriptions 
+When I switched over to using a MQTT protocol, I ran into the issue where I could only change property values. The solution to this was to implement events and subscriptions to my MQTT Thing on ThingWorx. I subscribed to data change events- if I pushed a value to a property, ThingWorx would take note of that change and run the appropriate service. This way of triggering services is not solely applicable to a MQTT communication system, and might even be the most efficient way to call services (you could have services run after each other, similar to a domino effect). However, it does make the Thing system you create on ThingWorx less flexible to change if you make your events/subscriptions as automated as I did. Code for this can be found in the SPIKE Puppy folder.
