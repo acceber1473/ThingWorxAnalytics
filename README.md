@@ -1,4 +1,5 @@
 # Integrating SPIKE Prime Robotics with ThingWorx Analytics 
+## Overview 
 This repository contains ThingWorx and Lego SPIKE Prime code that allows the SPIKE to be trained using the analytics server extension on ThingWorx. 
 
 This project is an exploration into the capabilities and applications of PTC's IoT platform ThingWorx, specifically its Analytics Builder and server, and played an important role in my overall goal of this summer: explore machine learning methods integrable with Lego SPIKE Prime robotics to create an educational AI experience for students. 
@@ -9,4 +10,5 @@ Below, is a flowchart of the general training process. Although the SPIKE Puppy 
 
 ![Untitled_Artwork 49](https://user-images.githubusercontent.com/49819466/128409745-270eaaea-e580-485b-9fd5-d6a1e227b1f7.jpg)
 
-[Here](https://drive.google.com/drive/folders/1ASOn0lAOdE_gR4C9Febgn0rY1Nz9imzS?usp=sharing) is a link to a Google Drive with even more resources. 
+## Setup
+Each folder will contain files detailing setups specific to the systems used. [Here](https://drive.google.com/drive/folders/1ASOn0lAOdE_gR4C9Febgn0rY1Nz9imzS?usp=sharing) is a link to a Google Drive with all of the linked resources and more!
