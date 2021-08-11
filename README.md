@@ -1,4 +1,9 @@
 # Integrating SPIKE Prime Robotics with ThingWorx Analytics 
+# Table of Contents
+1. [Overview](#Overview)
+2. [Setup](#Setup)
+3. [Equipment](#Equipment)
+
 ## Overview 
 
 <img align="right" src="https://user-images.githubusercontent.com/49819466/128409745-270eaaea-e580-485b-9fd5-d6a1e227b1f7.jpg" width=50% height=50%>
