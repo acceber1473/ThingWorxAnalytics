@@ -1,5 +1,4 @@
 # Integrating SPIKE Prime Robotics with ThingWorx Analytics 
-An exploration into the capabilities of PTC's IoT platform ThingWorx, specifically its Analytics Builder and server, and possible applications using Lego SPIKE Prime Robotics.
 # Table of Contents
 1. [Overview](#Overview)
 2. [Setup](#Setup)
