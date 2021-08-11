@@ -16,11 +16,11 @@ Each folder will contain files detailing setups specific to the systems used. [H
 
 ## Equipment
 - ThingWorx instance with the following:
-- - Analytics Server Extension
-- - CSV Parser Extension
-- - MQTT Extension
+  - Analytics Server Extension
+  - CSV Parser Extension
+  - MQTT Extension
 - SPIKE Prime Kit 
 - ESP8266 wifi dongle 
-- - [Click here](https://quickest-palladium-2e9.notion.site/SPIKE-Prime-Backpacks-31f12415b3ad429fba34956b9d50b49e) to get more info
+  - [Click here](https://quickest-palladium-2e9.notion.site/SPIKE-Prime-Backpacks-31f12415b3ad429fba34956b9d50b49e) to get more info
 - [MQTTX](https://mqttx.app/)- a cloud based broker app used as a bridge between SPIKE and ThingWorx 
-- - I have not explored other MQTT broker software, but hear that [Mosquitto](https://mosquitto.org/) is reputable
+  - I have not explored other MQTT broker software, but hear that [Mosquitto](https://mosquitto.org/) is reputable
