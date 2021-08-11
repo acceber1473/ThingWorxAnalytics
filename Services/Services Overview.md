@@ -1,4 +1,5 @@
 # Overview of ThingWorx Services 
+
 <img align="right" src="https://user-images.githubusercontent.com/49819466/128407966-ecd0203b-5cc9-4526-a695-d3d93114c313.jpg" width=60% height=60%>
 
 There are four main services I created to use when generating predictive models using the Analytics server on ThingWorx: refresh, createAnalyticsDataset, trainModel, and predictiveScoring.
