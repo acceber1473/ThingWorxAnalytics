@@ -18,6 +18,7 @@ To the right is a flowchart of the general training process. Although the SPIKE 
 
 ## Setup
 Each folder will contain files detailing setups specific to the systems used. [Here](https://drive.google.com/drive/folders/1ASOn0lAOdE_gR4C9Febgn0rY1Nz9imzS?usp=sharing) is a link to a Google Drive with all of the linked resources and more!
+The Ball Launcher code was hosted on Google Colab, and the SPIKE Puppy code is both local & through MQTT.
 
 ## Equipment
 - ThingWorx instance with the following:
