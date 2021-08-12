@@ -86,5 +86,7 @@ This video goes over using the Analytics Builder to create and export a predicti
 The other way to train data solely relies on calling the ThingWorx Analytics Server Extension Services, bypassing the need to manually import and export data/files from the Analytics Builder UI. Here is a Google Colab notebook that details all the API calls used to push data and call services: [![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
 ## Demo
-[Link to demo video!]()
+https://user-images.githubusercontent.com/49819466/129241912-d01b0260-5cb5-4e8c-a65c-db4f71e16bab.mp4
+
+[Link](https://drive.google.com/file/d/12A6mukXxOnVAIGvi36IIqErGakunG7yH/view?usp=sharing) to a better resolution version of the video.
 
