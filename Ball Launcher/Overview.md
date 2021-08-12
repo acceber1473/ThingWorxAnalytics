@@ -7,7 +7,7 @@
 3. [Training](#Training)
 
 ## Overview
-The first SPIKE system I build to be trained by ThingWorx was a ball launcher. The ball launcher consisted of an ultrasonic sensor to measure the distance between the system and the cup (the goal), and paired motors that rotated the launcher arm. The goal was to push trial data (RPM of motors and resultant ball distance) to ThingWorx, create a model using the Analytics extension, and then utilize that model in real-time. 
+The first SPIKE system built to be trained by ThingWorx was a ball launcher. The ball launcher consisted of an ultrasonic sensor to measure the distance between the system and the cup (the goal), and paired motors that rotated the launcher arm. The goal was to push trial data (RPM of motors and resultant ball distance) to ThingWorx, create a model using the Analytics extension, and then utilize that model in real-time. 
 
 ## Setup
 ### Run Google Colab in a Local Runtime 
@@ -38,6 +38,9 @@ Copy that link by selecting it in your terminal, you need it for the next step
 Now select connect in the upper right hand corner of your google colab page, select connect to local runtime, and paste the link you just copied into the field and press connect. If it was succesful, it will have a green check mark and say Connected (Local). Success!!
 <img align="center" src="https://user-images.githubusercontent.com/49819466/129223450-c16cff9e-4d8f-47ba-8542-f8e6ea00943a.png" width='639'>
 
+### Creating a ThingWorx Thing 
+Click here for a video overview on the Ball Launcher Thing created in the ThingWorx Composer. 
+
 ## Training
 Through my exploration of ThingWorx Analytics, I found two methods of training: using the Analytics Builder UI, and by calling various Analytics Server services.
 ### Analytics Builder and PMML Models 
@@ -46,8 +49,7 @@ Through my exploration of ThingWorx Analytics, I found two methods of training: 
 
 Training and validation data were pushed up from the SPIKE to ThingWorx and vice versa using Google Colab and serial connection between the computer and the SPIKE. This Colab notebook contains the code for that: [![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
-Here is a flow chart detailing 
+Here is a flow chart detailing the overall training process
 
 <img align="right" src="https://user-images.githubusercontent.com/49819466/128961182-ff2b338c-91f3-4e8f-ad84-03285bdb456f.jpg" width=50% height=50%>
 
-Where does the text go
