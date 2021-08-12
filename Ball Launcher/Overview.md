@@ -13,13 +13,14 @@ The first SPIKE system built to be trained by ThingWorx was a ball launcher. The
 This repository cover two methods of training: using the Analytics Builder in ThingWorx and implementing the resultant PMML predictive model, and solely using Analytics Server Services.
 
 **Method 1** creates a CSV file on Colab with the data read from the SPIKE, imports the CSV File into the Analytics Builder, and then exports the resultant predictive PMML model to be imported back into Colab. 
-
-**Method 2** pushes SPIKE data from Colab into ThingWorx via API Call, where already defined services can be called to do all the predicting. 
-
-Here is the link to the Google Colab notebook with the code to execute both methods:
+Here is the link to the Google Colab notebook with the code to execute Method 1:
 
 [![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JKfjlvxCv3q-V5EBMujnynUlsLIELGoU?usp=sharing)
 
+**Method 2** pushes SPIKE data from Colab into ThingWorx via API Call, where already defined services can be called to do all the predicting. 
+Here is the link to the Google Colab notebook with the code to execute Method 2:
+
+[![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H9kyaOsrTrrYPUkuPFFSTmKYYPn75PEY?usp=sharing)
 ## Setup
 ### Run Google Colab in a Local Runtime (both methods)
 Jupyter is a free, open-source, interactive web tool known as a computational notebook, which researchers can use to combine software code, computational output, explanatory text and multimedia resources in a single document. Google Colab, is Google's version, which has the benefit of real time colaboration, just like it's other products like Google Docs. Additionally, Google Colab isn't traditionally run on your local machine, it is ran over the cloud using one of Google's computers.This has it's drawbacks, most notably that since it is hosted on another machine, you can't communicate to local devices. (ex. A microcontroller through serial communication). To solve this we change the connection from a hosted runtime, to a local runtime. However, there a few things we need to install first.
