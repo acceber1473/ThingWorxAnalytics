@@ -16,6 +16,10 @@ This repository cover two methods of training: using the Analytics Builder in Th
 
 **Method 2** pushes SPIKE data from Colab into ThingWorx via API Call, where already defined services can be called to do all the predicting. 
 
+Here is the link to the Google Colab notebook with the code to execute both methods:
+
+[![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JKfjlvxCv3q-V5EBMujnynUlsLIELGoU?usp=sharing)
+
 ## Setup
 ### Run Google Colab in a Local Runtime (both methods)
 Jupyter is a free, open-source, interactive web tool known as a computational notebook, which researchers can use to combine software code, computational output, explanatory text and multimedia resources in a single document. Google Colab, is Google's version, which has the benefit of real time colaboration, just like it's other products like Google Docs. Additionally, Google Colab isn't traditionally run on your local machine, it is ran over the cloud using one of Google's computers.This has it's drawbacks, most notably that since it is hosted on another machine, you can't communicate to local devices. (ex. A microcontroller through serial communication). To solve this we change the connection from a hosted runtime, to a local runtime. However, there a few things we need to install first.
@@ -83,7 +87,9 @@ A PMML (Predictive Model Markup Language) model is an XML-based standard used to
 This video goes over using the Analytics Builder to create and export a predictive model.
 
 ### Method 2: Analytics Server Services 
-The other way to train data solely relies on calling the ThingWorx Analytics Server Extension Services, bypassing the need to manually import and export data/files from the Analytics Builder UI. Here is a Google Colab notebook that details all the API calls used to push data and call services: 
+The other way to train data solely relies on calling the ThingWorx Analytics Server Extension Services, bypassing the need to manually import and export data/files from the Analytics Builder UI. 
+
+Here is a Google Colab notebook that details all the API calls used to push data and call services: 
 
 [![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GvwLVI8judd2At94EOn4D8PMfs714_KH?usp=sharing)
 
@@ -92,5 +98,5 @@ https://user-images.githubusercontent.com/49819466/129241912-d01b0260-5cb5-4e8c-
 
 [Link](https://drive.google.com/file/d/12A6mukXxOnVAIGvi36IIqErGakunG7yH/view?usp=sharing) to a better resolution version of the video.
 
-This Google Colab document (put hackathon document here)
+
 
