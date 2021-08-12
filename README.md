@@ -3,6 +3,7 @@
 1. [Overview](#Overview)
 2. [Equipment](#Equipment)
 3. [Setup](#Setup)
+4. [Demo](#Demo)
 
 ## Overview 
 
@@ -47,3 +48,6 @@ Please follow **up to step "III. Install the MicroPython firmware onto the ESP82
 
 ### ThingWorx 
 [Follow this PDF](https://drive.google.com/file/d/1n7FzggdS_vQJa6Vi_tX7A-PuhZwObpXY/view?usp=sharing) to create an API Key.
+
+## Demo
+[Click this link](https://drive.google.com/file/d/1yq3LVrfxa2Fe0jLRYIuODsW0uVYPvgFB/view?usp=sharing) to watch a demo of training the SPIKE Puppy to sit and stand based on ultrasonic sensor distance, communicating all through a MQTT protocol.
