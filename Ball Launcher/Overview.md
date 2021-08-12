@@ -33,7 +33,9 @@ You can start a Jupyter notebook with the following command
 ```bash
   jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8888 --NotebookApp.port_retries=0
 ```
-There will be a link in the command line that looks like this...<img width="1017" alt="Screen Shot 2021-08-12 at 11 19 17 AM" src="https://user-images.githubusercontent.com/49819466/129222956-843a797f-13b8-4402-8c87-2f7a59fab503.png">
+There will be a link in the command line that looks like this...
+<img width="900" alt="Screen Shot 2021-08-12 at 11 19 17 AM" src="https://user-images.githubusercontent.com/49819466/129222956-843a797f-13b8-4402-8c87-2f7a59fab503.png">
+
 Copy that link by selecting it in your terminal, you need it for the next step
 Now select connect in the upper right hand corner of your google colab page, select connect to local runtime, and paste the link you just copied into the field and press connect. If it was succesful, it will have a green check mark and say Connected (Local). Success!!
 <img align="center" src="https://user-images.githubusercontent.com/49819466/129223450-c16cff9e-4d8f-47ba-8542-f8e6ea00943a.png" width='639'>
