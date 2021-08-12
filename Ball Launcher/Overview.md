@@ -1,4 +1,4 @@
-# Overview of Ball Launcher Example 
+# SPIKE Ball Launcher Example 
 # Table of Contents
 1. [Overview](#Overview)
 2. [Setup](#Setup)
