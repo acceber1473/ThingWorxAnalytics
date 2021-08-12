@@ -44,3 +44,8 @@ The ESP8266 is a microcontroller that is a cost-effective and highly integrated 
 Please follow **all** [instructions on this website](https://quickest-palladium-2e9.notion.site/ESP8266-505d37c06286455887f8698031602e19) for setup. The files referenced are located in the ESP8266 folder on this repository.
 #### Setting Up ESP8266 for MQTT Capabilities
 Please follow **up to step "III. Install the MicroPython firmware onto the ESP8266"** on [this website](https://quickest-palladium-2e9.notion.site/ESP8266-505d37c06286455887f8698031602e19). Then follow instructions listed in the ESP8266 folder on this repository.
+
+### ThingWorx 
+[Please contact PTC](https://www.ptc.com/en/products/thingworx?cl1=IoT_General_Google_CLC-cpc-ThingWorxBrandCampaign-33029&cmsrc=Google&cid=7012A000001UvT4QAK&elqCampaignId=9998&utm_source=Google_Search&utm_medium=cpc&utm_content=IoT-cpc_Branded&gclid=CjwKCAjwjdOIBhA_EiwAHz8xm5ABx8NVbNA2aKoO4FYL7tpjHAQLh4zCTRgaLdddU2smOIe4vuIv8hoCGAUQAvD_BwE) if you wish to gain access to ThingWorx. 
+
+If you already have access to ThingWorx, [follow this PDF](https://drive.google.com/file/d/1n7FzggdS_vQJa6Vi_tX7A-PuhZwObpXY/view?usp=sharing) to create an API Key.
