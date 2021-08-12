@@ -31,6 +31,11 @@ In addition to the setup provided here, each folder will contain files detailing
 
 The Ball Launcher code was hosted on Google Colab, and the SPIKE Puppy code is both local & through MQTT.
 
+### LabView IDE 
+The LabView IDE was used in order to code MicroPython onto the SPIKE Prime and ESP8266 either through micro USB communication (applicable for both) or bluetooth communication (only applicable for the SPIKE). 
+[Download LabView here.](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#369643) 
+You can [download the IDE from this repository here](https://github.com/chrisbuerginrogers/ME35_21), and it is compatible with any version of LabView, including the Community Version.
+
 ### ESP8266 Wifi Dongle 
 The ESP8266 is a microcontroller that is a cost-effective and highly integrated Wi-Fi MCU for IoT applications. Since the Lego SPIKE Prime kit does not come with WiFi capabilities, the ESP8266 was created as a "backpack" for the SPIKE Prime. A cable was soldered to the TX, RX, Ground, and VCC pins of the ESP and can be connected to the respective RX, TX, Ground, and VCC pins of the SPIKE Prime through one of the ports. This allows the SPIKE and ESP to communicate via UART serial communication. Micropython was flashed onto the ESP and there are two versions of the dongle based on what type of communcation is used (API calls vs. MQTT).
 #### Setting Up ESP8266 for API Call Capabilities 
