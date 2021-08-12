@@ -74,7 +74,7 @@ OR
 ## Training
 Through my exploration of ThingWorx Analytics, I found two methods of training: using the Analytics Builder UI, and by calling various Analytics Server services.
 ### Method 1: Analytics Builder and PMML Models 
-<img align="right" src="https://user-images.githubusercontent.com/49819466/128961182-ff2b338c-91f3-4e8f-ad84-03285bdb456f.jpg" width=45% height=45%>
+<img align="right" src="https://user-images.githubusercontent.com/49819466/128961182-ff2b338c-91f3-4e8f-ad84-03285bdb456f.jpg" width=50% height=50%>
 
 [ThingWorx Analytics Builder](https://support.ptc.com/help/thingworx/analytics/r9/en/#page/analytics%2Fanalytics_builder%2Fanalytics_builder_overview.html%23) extends ThingWorx Foundation functionality with access to analytic capabilities, including predictive model building, predictive scoring, and data analysis. On ThingWorx, you can manually import a CSV file with all the data and then select the preferred specifications in the builder UI. Then, the resulting PMML model can be exported and imported into Google Colab using a Python pypmml module. 
 A PMML (Predictive Model Markup Language) model is an XML-based standard used to represent predictive models. The [pypmml module](https://github.com/autodeployai/pypmml) is a Python PMML scoring library that allows you to import a PMML XML file locally from your computer, and then you can utilize various functions, such as the predict function to ouput motor RPM based on the distance input.
