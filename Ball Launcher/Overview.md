@@ -5,6 +5,7 @@
 1. [Overview](#Overview)
 2. [Setup](#Setup)
 3. [Training](#Training)
+4. [Demo](#Demo) 
 
 ## Overview
 The first SPIKE system built to be trained by ThingWorx was a ball launcher. The ball launcher consisted of an ultrasonic sensor to measure the distance between the system and the cup (the goal), and paired motors that rotated the launcher arm. The goal was to push trial data (RPM of motors and resultant ball distance) to ThingWorx, create a model using the Analytics extension, and then utilize that model in real-time. 
@@ -84,5 +85,6 @@ This video goes over using the Analytics Builder to create and export a predicti
 ### Method 2: Analytics Server Services 
 The other way to train data solely relies on calling the ThingWorx Analytics Server Extension Services, bypassing the need to manually import and export data/files from the Analytics Builder UI. Here is a Google Colab notebook that details all the API calls used to push data and call services: [![Link to Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
-
+## Demo
+[Link to demo video!]()
 
