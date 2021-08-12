@@ -5,10 +5,11 @@
 3. [How I Trained the Ball Launcher](#How I Trained the Ball Launcher)
 
 <img align="right" src="https://user-images.githubusercontent.com/49819466/128962304-5829e956-a106-4cab-8d91-d1343155e485.jpg" width=50% height=50%>
+
 ## Overview
 The first SPIKE system I build to be trained by ThingWorx was a ball launcher. The ball launcher consisted of an ultrasonic sensor to measure the distance between the system and the cup (the goal), and paired motors that rotated the launcher arm. The goal was to push trial data (RPM of motors and resultant ball distance) to ThingWorx, create a model using the Analytics extension, and then utilize that model in real-time. 
 
-
+## Setup
 
 ## How I Trained the Ball Launcher 
 Through my exploration of ThingWorx Analytics, I found two methods of training: using the Analytics Builder UI, and by calling various Analytics Server services.
