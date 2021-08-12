@@ -13,9 +13,9 @@ The first SPIKE system I build to be trained by ThingWorx was a ball launcher. T
 ### Run Google Colab in a Local Runtime 
 Jupyter is a free, open-source, interactive web tool known as a computational notebook, which researchers can use to combine software code, computational output, explanatory text and multimedia resources in a single document. Google Colab, is Google's version, which has the benefit of real time colaboration, just like it's other products like Google Docs. Additionally, Google Colab isn't traditionally run on your local machine, it is ran over the cloud using one of Google's computers.This has it's drawbacks, most notably that since it is hosted on another machine, you can't communicate to local devices. (ex. A microcontroller through serial communication). To solve this we change the connection from a hosted runtime, to a local runtime. However, there a few things we need to install first.
 #### Installation
-Python: [download from their website](https://www.python.org/downloads/v)
--If you see options to Add to Path or Install pip select them, they are important
-Install Jupyter notebook, this can and should be done from the command line using pip or pip3
+- Python: [download from their website](https://www.python.org/downloads/v)
+  - If you see options to Add to Path or Install pip select them, they are important
+- Install Jupyter notebook, this can and should be done from the command line using pip or pip3
 ```bash
   pip install notebook
 ```
@@ -23,7 +23,7 @@ Install Jupyter notebook, this can and should be done from the command line usin
 ```bash
   jupyter notebook
 ```
-Install Google's Library for Communication
+- Install Google's Library for Communication
 ```bash
   pip install jupyter_http_over_ws
   jupyter serverextension enable --py jupyter_http_over_ws
@@ -35,7 +35,7 @@ You can start a Jupyter notebook with the following command
 ```
 There will be a link in the command line that looks like this...<img width="1017" alt="Screen Shot 2021-08-12 at 11 19 17 AM" src="https://user-images.githubusercontent.com/49819466/129222956-843a797f-13b8-4402-8c87-2f7a59fab503.png">
 Copy that link by selecting it in your terminal, you need it for the next step
-Now select connect in the upper right hand corner of your google colab page, select connect to local runtime, and paste the link you just copied into the field and press connect. If it was succesful, it will have a green check mark and say Connected (Local). Success!!<img width="639" alt="Screen Shot 2021-08-12 at 11 22 17 AM" src="https://user-images.githubusercontent.com/49819466/129223450-c16cff9e-4d8f-47ba-8542-f8e6ea00943a.png">
+Now select connect in the upper right hand corner of your google colab page, select connect to local runtime, and paste the link you just copied into the field and press connect. If it was succesful, it will have a green check mark and say Connected (Local). Success!!<img align="center" img width="639" alt="Screen Shot 2021-08-12 at 11 22 17 AM" src="https://user-images.githubusercontent.com/49819466/129223450-c16cff9e-4d8f-47ba-8542-f8e6ea00943a.png">
 
 ## Training
 Through my exploration of ThingWorx Analytics, I found two methods of training: using the Analytics Builder UI, and by calling various Analytics Server services.
