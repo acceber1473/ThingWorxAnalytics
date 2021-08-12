@@ -33,7 +33,9 @@ The Ball Launcher code was hosted on Google Colab, and the SPIKE Puppy code is b
 
 ### LabView IDE 
 The LabView IDE was used in order to code MicroPython onto the SPIKE Prime and ESP8266 either through micro USB communication (applicable for both) or bluetooth communication (only applicable for the SPIKE). 
+
 [Download LabView here.](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#369643) 
+
 You can [download the IDE from this repository here](https://github.com/chrisbuerginrogers/ME35_21), and it is compatible with any version of LabView, including the Community Version.
 
 ### ESP8266 Wifi Dongle 
