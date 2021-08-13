@@ -1,5 +1,6 @@
 # Training the SPIKE AI Puppy Using ThingWorx Analytics 
 <img align="right" src="https://user-images.githubusercontent.com/49819466/129408283-baf50b5d-0816-4554-9f97-54a97c3f4f6a.jpeg" width=50% height=50%>
+
 ## Overview 
 The AI Puppy is the first SPIKE system trained using ThingWorx via the ESP8266 WiFi Dongle. Inclusion of this dongle expands SPIKE functionalities: now, the training and communication to external machine learning platforms can be done locally, whether that be through API calls or a MQTT protocol. 
 
