@@ -1,7 +1,7 @@
 SSID="Tufts_Wireless" # Network SSID
 KEY=""  # Network key
 
-appKeys = {'Thingworx':'b5b122e9-42db-41ed-879b-340af6daedac'}
+appKeys = {'Thingworx':''} # put your APP key here!
 
 
 '''
