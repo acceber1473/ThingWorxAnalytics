@@ -1,6 +1,6 @@
 # Training the SPIKE AI Puppy Using ThingWorx Analytics 
 
-<img align="right" src="https://user-images.githubusercontent.com/49819466/129408283-baf50b5d-0816-4554-9f97-54a97c3f4f6a.jpeg" width=50% height=50%>
+<imag align="right" src="https://user-images.githubusercontent.com/49819466/129408283-baf50b5d-0816-4554-9f97-54a97c3f4f6a.jpeg" width=50% height=50%>
 
 < imag align = "right" src="https://user-images.githubusercontent.com/49819466/129409980-a9f26de8-227a-482d-8cd8-7cd8c9447baa.jpg" width=30% height=30%>
 
